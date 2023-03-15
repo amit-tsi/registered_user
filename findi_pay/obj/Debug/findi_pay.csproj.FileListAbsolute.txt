@@ -1,0 +1,158 @@
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\findi_pay.dll.config
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\findi_pay.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\findi_pay.pdb
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\csc.exe
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\csc.exe.config
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\csc.rsp
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\csi.exe
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\csi.exe.config
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\csi.rsp
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.AppContext.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Console.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.IO.Compression.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Net.Http.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Net.Sockets.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.ValueTuple.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Xml.XPath.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\vbc.exe
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\vbc.exe.config
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\vbc.rsp
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\VBCSCompiler.exe
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\Antlr3.Runtime.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\Newtonsoft.Json.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\System.Web.Helpers.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\System.Web.Mvc.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\System.Web.Optimization.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\System.Web.Razor.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\System.Web.WebPages.Deployment.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\System.Web.WebPages.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\System.Web.WebPages.Razor.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\WebGrease.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\System.Web.Helpers.xml
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\System.Web.Mvc.xml
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\System.Web.Optimization.xml
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\System.Web.Razor.xml
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\System.Web.WebPages.xml
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\System.Web.WebPages.Deployment.xml
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\System.Web.WebPages.Razor.xml
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\Newtonsoft.Json.xml
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\Antlr3.Runtime.pdb
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\obj\Debug\findi_pay.csproj.AssemblyReference.cache
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\obj\Debug\findi_pay.csproj.CoreCompileInputs.cache
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\obj\Debug\findi_pay.csproj.CopyComplete
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\obj\Debug\findi_pay.dll
+C:\Users\TSI\Desktop\MVC\findi_pay\findi_pay\obj\Debug\findi_pay.pdb
+D:\New folder\MVC\findi_pay\findi_pay\bin\findi_pay.dll.config
+D:\New folder\MVC\findi_pay\findi_pay\bin\findi_pay.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\findi_pay.pdb
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\csc.exe
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\csc.exe.config
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\csc.rsp
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\csi.exe
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\csi.exe.config
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\csi.rsp
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.Managed.Core.targets
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.AppContext.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Collections.Immutable.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Console.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Globalization.Calendars.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.IO.Compression.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.IO.FileSystem.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Net.Http.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Net.Sockets.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Reflection.Metadata.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.ValueTuple.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Xml.XmlDocument.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Xml.XPath.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\vbc.exe
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\vbc.exe.config
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\vbc.rsp
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\VBCSCompiler.exe
+D:\New folder\MVC\findi_pay\findi_pay\bin\roslyn\VBCSCompiler.exe.config
+D:\New folder\MVC\findi_pay\findi_pay\bin\Antlr3.Runtime.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\Microsoft.Web.Infrastructure.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\Newtonsoft.Json.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\System.Web.Helpers.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\System.Web.Mvc.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\System.Web.Optimization.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\System.Web.Razor.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\System.Web.WebPages.Deployment.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\System.Web.WebPages.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\System.Web.WebPages.Razor.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\WebGrease.dll
+D:\New folder\MVC\findi_pay\findi_pay\bin\System.Web.Helpers.xml
+D:\New folder\MVC\findi_pay\findi_pay\bin\System.Web.Mvc.xml
+D:\New folder\MVC\findi_pay\findi_pay\bin\System.Web.Optimization.xml
+D:\New folder\MVC\findi_pay\findi_pay\bin\System.Web.Razor.xml
+D:\New folder\MVC\findi_pay\findi_pay\bin\System.Web.WebPages.xml
+D:\New folder\MVC\findi_pay\findi_pay\bin\System.Web.WebPages.Deployment.xml
+D:\New folder\MVC\findi_pay\findi_pay\bin\System.Web.WebPages.Razor.xml
+D:\New folder\MVC\findi_pay\findi_pay\bin\Newtonsoft.Json.xml
+D:\New folder\MVC\findi_pay\findi_pay\bin\Antlr3.Runtime.pdb
+D:\New folder\MVC\findi_pay\findi_pay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\New folder\MVC\findi_pay\findi_pay\obj\Debug\findi_pay.csproj.AssemblyReference.cache
+D:\New folder\MVC\findi_pay\findi_pay\obj\Debug\findi_pay.csproj.CoreCompileInputs.cache
+D:\New folder\MVC\findi_pay\findi_pay\obj\Debug\findi_pay.csproj.CopyComplete
+D:\New folder\MVC\findi_pay\findi_pay\obj\Debug\findi_pay.dll
+D:\New folder\MVC\findi_pay\findi_pay\obj\Debug\findi_pay.pdb
