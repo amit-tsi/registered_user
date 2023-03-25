@@ -99,6 +99,9 @@
             position:fixed;
             top:0px;
         }
+        .custom{
+
+        }
 
     </style>
 </head>
@@ -107,25 +110,26 @@
 
         <!-- partial:partials/_navbar.html -->
         <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+            <div>
 
+            </div>
+            <div class="col-sm-12 test" style="margin-left:10%;margin-right:10%;">
+                <div class="row">
+                    <div class="col-sm-2 test c-iocon">  <i class="mdi mdi-fingerprint menu-icon"></i></div>
+                    <div class="col-sm-2 test c-iocon">  <i class="mdi mdi-fingerprint menu-icon"></i></div>
+                    <div class="col-sm-2 test c-iocon">  <i class="mdi mdi-fingerprint menu-icon"></i></div>
+                    <div class="col-sm-2 test c-iocon">  <i class="mdi mdi-fingerprint menu-icon"></i></div>
+                    <div class="col-sm-2 test c-iocon">  <i class="mdi mdi-fingerprint menu-icon"></i></div>
+                    <div class="col-sm-2 test c-iocon">  <i class="mdi mdi-fingerprint menu-icon"></i></div>
+                </div>
+            </div>
             <div class="navbar-menu-wrapper d-flex align-items-stretch">
-                <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
-                    <span class="mdi mdi-menu"></span>
-                </button>
-
                 <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
                     <span class="mdi mdi-menu"></span>
                 </button>
-
-
-                <div class="row">
-                    <div class="col-md-12 test"></div>
-                </div>
             </div>
-
-            
         </nav>
-        
+
         <!-- partial -->
         <div class="container-fluid page-body-wrapper">
             <!-- partial:partials/_sidebar.html -->
@@ -165,7 +169,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="/User/DTM">
                             <span class="menu-title">DMT</span>
                             <i class="mdi mdi-fingerprint menu-icon"></i>
                         </a>
@@ -197,21 +201,21 @@
                         </a>
                     </li>
                     @*<li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="collapse" href="#general-pages" aria-expanded="false" aria-controls="general-pages">
-                            <span class="menu-title">Sample Pages</span>
-                            <i class="menu-arrow"></i>
-                            <i class="mdi mdi-medical-bag menu-icon"></i>
-                        </a>
-                        <div class="collapse" id="general-pages">
-                            <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Blank Page </a></li>
-                                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
-                                <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
-                                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li>
-                                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li>
-                            </ul>
-                        </div>
-                    </li>*@
+                            <a class="nav-link" data-bs-toggle="collapse" href="#general-pages" aria-expanded="false" aria-controls="general-pages">
+                                <span class="menu-title">Sample Pages</span>
+                                <i class="menu-arrow"></i>
+                                <i class="mdi mdi-medical-bag menu-icon"></i>
+                            </a>
+                            <div class="collapse" id="general-pages">
+                                <ul class="nav flex-column sub-menu">
+                                    <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Blank Page </a></li>
+                                    <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
+                                    <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
+                                    <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li>
+                                    <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li>
+                                </ul>
+                            </div>
+                        </li>*@
 
                 </ul>
             </nav>
@@ -234,6 +238,9 @@
         </div>
         <!-- page-body-wrapper ends -->
     </div>
+
+
+
     <!-- container-scroller -->
     <!-- plugins:js -->
     <script src="~/Content/assets_usr/vendors/js/vendor.bundle.base.js"></script>
@@ -250,7 +257,6 @@
     <!-- Custom js for this page -->
     <script src="~/Content/assets_usr/js/dashboard.js"></script>
     <!-- End custom js for this page -->
-
     <!-- endinject -->
     <!-- Custom js for this page -->
     <script src="~/Content/assets_usr/js/chart.js"></script>

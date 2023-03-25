@@ -204,6 +204,7 @@
     <Content Include="Content\assets_loc\vendor\remixicon\remixicon.symbol.svg" />
     <Content Include="Content\assets_loc\vendor\swiper\swiper-bundle.min.css" />
     <Content Include="Content\assets_loc\vendor\swiper\swiper-bundle.min.js" />
+    <Content Include="Content\assets_usr\css\Dstyle.css" />
     <Content Include="Content\assets_usr\css\style.css" />
     <Content Include="Content\assets_usr\images\dashboard\circle.png" />
     <Content Include="Content\assets_usr\images\dashboard\circle.svg" />
@@ -402,6 +403,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\UserCommonLayout.cshtml" />
     <Content Include="Views\User\Index.cshtml" />
+    <Content Include="Views\User\DTM.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -13,5 +13,8 @@ namespace findi_pay.Controllers
         {
             return View();
         }
+        public ActionResult DTM() { 
+            return View();
+        }
     }
 }
