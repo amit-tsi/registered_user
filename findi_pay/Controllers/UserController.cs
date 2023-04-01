@@ -13,7 +13,15 @@ namespace findi_pay.Controllers
         {
             return View();
         }
-        public ActionResult DTM() { 
+        public ActionResult SendMoney() { 
+            return View();
+        }
+        public ActionResult Refund()
+        {
+            return View();
+        }
+        public ActionResult Reports()
+        {
             return View();
         }
     }

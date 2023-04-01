@@ -1,0 +1,202 @@
+﻿
+@{
+    ViewBag.Title = "Send Money";
+    Layout = "~/Views/Shared/DMTCommonView.cshtml";
+}
+<script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+        function OTPInput() {
+            const inputs = document.querySelectorAll("#otp > *[id]");
+            for (let i = 0; i < inputs.length; i++) {
+                inputs[i].addEventListener("keydown", function (event) {
+                    if (event.key === "Backspace") {
+                        inputs[i].value = "";
+                        if (i !== 0) inputs[i - 1].focus();
+                    } else {
+                        if (i === inputs.length - 1 && inputs[i].value !== "") {
+                            return true;
+                        } else if (event.keyCode > 47 && event.keyCode < 58) {
+                            inputs[i].value = event.key;
+                            if (i !== inputs.length - 1) inputs[i + 1].focus();
+                            event.preventDefault();
+                        } else if (event.keyCode > 64 && event.keyCode < 91) {
+                            inputs[i].value = String.fromCharCode(event.keyCode);
+                            if (i !== inputs.length - 1) inputs[i + 1].focus();
+                            event.preventDefault();
+                        }
+                    }
+                });
+            }
+        }
+        OTPInput();
+    });
+
+</script>
+<style>
+    #otp .form-control {
+        padding: 0.94rem 0rem;
+    }
+</style>
+
+
+        <!-- ===================== -->
+        <!-- Partial View -->
+        <!-- =================== -->
+<div class="row">
+    <div class="body-bar">
+        <h6>Search Customer</h6>
+        <input type="text" placeholder="Enter Mobile Number" />
+        <button style="background: #00b0f0; color: white;padding-top: .5%;
+    padding-bottom: .5%;"
+                data-mdb-toggle="modal"
+                data-mdb-target="#exampleModal">
+            CONTINUE
+        </button>
+    </div>
+</div>
+<div class="row">
+    <div class="body-bar">
+        <h6>Important Instructions</h6>
+        <dl style="margin-top: 1.5%">
+            <dt>
+                <b>
+                    Please ensure to check following points before proceeding
+                    for Domestic Money Transfer
+                </b>
+            </dt>
+            <br />
+            <dd>
+                <ul>
+                    <li>
+                        Please recheck the Account Number and IFSC CODE before
+                        submitting the transaction, once submitted the transaction
+                        cannot be reversed.
+                    </li>
+                </ul>
+            </dd>
+            <dd>
+                <ul>
+                    <li>
+                        Please verify the Account Number and confirm Beneficiary
+                        name before initiating a transaction. Any transaction done
+                        with incorrect Beneficiary details will be the
+                        responsibility of the Merchant.
+                    </li>
+                </ul>
+            </dd>
+            <dd>
+                <ul>
+                    <li>
+                        In case a reversal is required for a wrong transaction, it
+                        will be subject to Beneficiary’s Bank approval.
+                    </li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+</div>
+        <div class="row">
+            <div class="body-bar">
+                <h6>जरूरी सूचना</h6>
+                <dl style="margin-top: 1.5%">
+                    <dt><b>कृzया zैसे भेजने से zहले नि|लिyखित {बिद जांच ल</b></dt>
+                    <br />
+                    <dd>
+                        <ul>
+                            <li>
+                                ट्रांÐेक्श¾ कर¾े Ðे पहले कृपया अकाउंट ¾ंबर और IFSC CODE को
+                                पु¾ः चेक कर लें। ट्रांÐेक्श¾ कर¾े के बाद ½रिफंड या
+                                ½रिवÏर्सल Ðंभव ¾हीं होगा
+                            </li>
+                        </ul>
+                    </dd>
+                    <dd>
+                        <ul>
+                            <li>
+                                कृपया अकाउंट ¾ंबर वे½रिफाई करें और खाता धारक का ¾ाम चेक कर
+                                लें। गलत बक या खाते में ट्रांÐेक्श¾ कर¾े पर Dज़िम्मेदारी
+                                म)र्चेंट की होगी।
+                            </li>
+                        </ul>
+                    </dd>
+                    <dd>
+                        <ul>
+                            <li>
+                                गलत ट्रांÐेक्श¾ का ½रिफंड बक की स्वीकृNति पर MनिLर्भर होगा
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+
+
+
+<!-- Modal -->
+<!-- OTP Modal -->
+<div class="modal fade "
+     id="exampleModal"
+     tabindex="-1"
+     aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p class="">OTP Verification</p>
+            </div>
+            <div class="modal-body">
+                <span>Please center 4-digit code sent to you at </span><br />
+                <span>+91-8887975604</span>
+                <div id="otp"
+                     class="inputs d-flex flex-row justify-content-center mt-2">
+                    <input class="m-2 text-center form-control rounded"
+                           type="text"
+                           id="first"
+                           maxlength="1" />
+                    <input class="m-2 text-center form-control rounded"
+                           type="text"
+                           id="second"
+                           maxlength="1" />
+                    <input class="m-2 text-center form-control rounded"
+                           type="text"
+                           id="third"
+                           maxlength="1" />
+                    <input class="m-2 text-center form-control rounded"
+                           type="text"
+                           id="fourth"
+                           maxlength="1" />
+                </div>
+                <input type="button" data-mdb-toggle="modal"
+                       data-mdb-target="#congoModal" value="Continue" class="mt-3 btn my-btn" />
+                <br/>
+                <span class="mt-2">Did not recieve code?</span>
+                <br />
+                <a href="#">Resend </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Congatulation Modal -->
+
+<div class="modal fade show"
+     id="congoModal"
+     tabindex="-1"
+     aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p class="">OTP Verification</p>
+            </div>
+            <div class="modal-body">
+                <i class="mdi mdi-check-circle check"></i>
+                <p>Congratulations!</p>
+                <span>Your Account has been registered</span>
+                <br /><br />
+                <a href="#">Proceed <i class="mdi mdi-arrow-right-thin"></i></a>
+            </div>
+        </div>
+    </div>
+</div>

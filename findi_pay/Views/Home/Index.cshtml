@@ -29,8 +29,9 @@
 
 
     <link href="~/Content/assets_loc/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="~/Content/assets_loc/css/mdb.min.css" rel="stylesheet" />
-    <script src="~/Content/assets_loc/js/mdb.min.js"></script>
+      <link rel="stylesheet" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/compiled-4.20.0.min.css">
+
+    <link href="~/Content/md_assest/css/mdb.min.css" rel="stylesheet" />
     <!-- Template Main CSS File -->
     <link href="~/Content/assets_loc/css/style.css" rel="stylesheet">
 
@@ -39,7 +40,28 @@
             min-height: 200px;
             background-color: red;
         }
-        .navbar{
+
+        .navbar {
+            box-shadow: none;
+        }
+            .navbar .getstarted, .navbar .getstarted:focus {
+                background: #02a8c6;
+                padding: 8px 20px;
+                margin-left: 30px;
+                border-radius: 4px;
+                color: #fff;
+            }
+        .modal-dialog.modal-notify.modal-success .modal-header{
+            background:none;
+            color:#000;
+        }
+        .modal-dialog.modal-notify .heading{
+            color:#000;
+        }
+        a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
+            color:white;
+        }
+        .modal-dialog.modal-notify .modal-header{
             box-shadow:none;
         }
     </style>
@@ -51,7 +73,7 @@
     <header id="header" class="header fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="index.html" class="logo d-flex align-items-center" style="margin-left: 2.3%;">
                 <img src="~/Content/assets_loc/images/FindiPay Logo_TEAL.jpg" alt="">
 
             </a>
@@ -65,7 +87,11 @@
                     <li><a class="nav-link scrollto" href="#contact-main">CONTACT</a></li>
 
 
-                    <li><a href="/User/Index" class="getstarted scrollto" data-toggle="modal" data-target="#modalLoginForm">LOG IN</a></li>
+                    <li>
+                        <a class="getstarted scrollto" data-toggle="modal" data-target="#fluidModalRightSuccessDemo">LOG IN</a>
+                        @*   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#fluidModalRightSuccessDemo">Right</button>*@
+
+                    </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -77,8 +103,8 @@
 
         <div class="container">
             <div class="row">
-                <div style="padding:3%;" class="col-lg-7 flex-column justify-content-center main-head">
-                    Driving the <span>Unbanked</span><br /> towards <span>Financial</span> <br /> <span>Inclusion</span>
+                <div style="padding:3%;padding-right: 5%;" class="col-lg-7 flex-column justify-content-center main-head">
+                    <span class="top-head-text"> Driving the <span>Unbanked</span> towards <span>Financial</span> <span>Inclusion</span></span>
                     <br />
 
                     <div class="row mt-5">
@@ -87,7 +113,24 @@
                             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
                         </p>
                     </div>
+                    <div class="row">
+                        <div class="input-box mt-3">
+                            <span class="prefix">+91-</span>
+                            @*<div class="form-outline">
+                                <input type="text" id="form12" class="form-control" />
+                                <label class="form-label" for="form12">00000000000</label>
+                            </div>*@
+                            <input type="tel" placeholder="0000000000" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="text-lg-start mt-3">
+                            <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                                <span style="color:#fff">Get a Call</span>
 
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-lg-5 hero-img">
@@ -110,24 +153,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="input-box">
-                        <span class="prefix">+91-</span>
-                        <div class="form-outline">
-                            <input type="text" id="form12" class="form-control" />
-                            <label class="form-label" for="form12">00000000000</label>
-                        </div>
-                        @*<input type="tel" placeholder="0000000000" />*@
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="text-lg-start mt-5">
-                        <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                            <span style="color:#fff">Get a Call</span>
-
-                        </a>
-                    </div>
-                </div>
+               
 
             </div>
         </div>
@@ -474,32 +500,35 @@
                 <div class="row gy-4">
 
                     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <div class="service-box blue">
-                            <i class="ri-bar-chart-fill icon"></i>
+                        <div class="service-box ">
+                           
+                            <img class="mb-3" src="~/Content/assets_loc/images/transactions.png" />
                             <h5>₹<span data-purecounter-start="0" data-purecounter-end="400" data-purecounter-duration="1" class="purecounter"></span>+ Cr Daily</h5>
                             <p>Procession</p>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="service-box orange">
-                            <i class="ri-bar-chart-fill icon"></i>
+                        <div class="service-box ">
+                            
+                            <img class="mb-3" src="~/Content/assets_loc/images/daily_pro.png" />
                             <h5>₹<span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>+ Cr Monthly</h5>
                             <p>Transaction</p>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                        <div class="service-box green">
-                            <i class="ri-bar-chart-fill icon"></i>
+                        <div class="service-box ">
+                            
+                            <img class="mb-3" src="~/Content/assets_loc/images/services.png" />
                             <h5><span data-purecounter-start="0" data-purecounter-end="40" data-purecounter-duration="1" class="purecounter"></span>+ Serviced</h5>
                             <p>Institutions</p>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
-                        <div class="service-box red">
-                            <i class="ri-bar-chart-fill icon"></i>
+                        <div class="service-box ">
+                            <img class="mb-3" src="~/Content/assets_loc/images/20plus_states.png" />
                             <h5><span data-purecounter-start="0" data-purecounter-end="400" data-purecounter-duration="1" class="purecounter"></span>+ States</h5>
                             <p>Covered</p>
                         </div>
@@ -628,45 +657,38 @@
     <!-----======================================================------>
     <!--------Modal---------->
     <!-----======================================================------>
-    @*<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-             aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header text-center">
-                        <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body mx-3">
-                        <div class="md-form mb-5">
-                            <i class="fas fa-envelope prefix grey-text"></i>
-                            <input type="email" id="defaultForm-email" class="form-control validate">
-                            <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
-                        </div>
+    <div class="modal fade right" id="fluidModalRightSuccessDemo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="false" data-backdrop="true">
+        <div class="modal-dialog modal-full-height modal-right modal-notify modal-success" role="document">
+            <!--Content-->
+            <div class="modal-content">
+                <!--Header-->
+                <div class="modal-header">
+                    
+                </div>
 
-                        <div class="md-form mb-4">
-                            <i class="fas fa-lock prefix grey-text"></i>
-                            <input type="password" id="defaultForm-pass" class="form-control validate">
-                            <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
-                        </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <div class="text-center">
+                      
+                    </div>
+                   
+                </div>
 
-                    </div>
-                    <div class="modal-footer d-flex justify-content-center">
-                        <button class="btn btn-default">Login</button>
-                    </div>
+                <!--Footer-->
+                <div class="modal-footer justify-content-center">
+                    <a type="button" class="btn btn-success">
+                        Get it now
+                        <i class="far fa-gem ml-1"></i>
+                    </a>
+                    <a  class="btn btn-outline-success waves-effect" data-dismiss="modal">No, thanks</a>
                 </div>
             </div>
-        </div>*@
+            <!--/.Content-->
+        </div>
+    </div>
 
-    @*<div class="text-center">
-            <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm">
-                Launch
-                Modal Login Form
-            </a>
-        </div>*@
 
-   
 
     <!-- Vendor JS Files -->
     <script src="~/Content/assets_loc/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -677,6 +699,8 @@
     <script src="~/Content/assets_loc/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="~/Content/assets_loc/vendor/purecounter/purecounter_vanilla.js"></script>
     <!-- Template Main JS File -->
+    <script src="~/Content/md_assest/js/mdb.min.js"></script>
+    <script type="text/javascript" src="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/js/bundles/4.20.0/compiled.min.js"></script>
     <script src="~/Content/assets_loc/js/main.js"></script>
 
 </body>

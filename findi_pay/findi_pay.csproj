@@ -132,6 +132,7 @@
     <Content Include="Content\assets_loc\css\hover.css" />
     <Content Include="Content\assets_loc\css\mdb.min.css" />
     <Content Include="Content\assets_loc\css\style.css" />
+    <Content Include="Content\assets_loc\images\20plus_states.png" />
     <Content Include="Content\assets_loc\images\aeps.png" />
     <Content Include="Content\assets_loc\images\b.png" />
     <Content Include="Content\assets_loc\images\BBPS %281%29.png" />
@@ -145,6 +146,7 @@
     <Content Include="Content\assets_loc\images\clients\client-6.png" />
     <Content Include="Content\assets_loc\images\clients\client-7.png" />
     <Content Include="Content\assets_loc\images\clients\client-8.png" />
+    <Content Include="Content\assets_loc\images\daily_pro.png" />
     <Content Include="Content\assets_loc\images\dmt.png" />
     <Content Include="Content\assets_loc\images\d_shadow.png" />
     <Content Include="Content\assets_loc\images\Email Icon.png" />
@@ -159,7 +161,10 @@
     <Content Include="Content\assets_loc\images\PNB.png" />
     <Content Include="Content\assets_loc\images\Prabhu.png" />
     <Content Include="Content\assets_loc\images\r.png" />
+    <Content Include="Content\assets_loc\images\services.png" />
+    <Content Include="Content\assets_loc\images\transactions.png" />
     <Content Include="Content\assets_loc\images\TSI bg.png" />
+    <Content Include="Content\assets_loc\images\tsi_bg_blue.jpg" />
     <Content Include="Content\assets_loc\images\Website icon.png" />
     <Content Include="Content\assets_loc\js\main.js" />
     <Content Include="Content\assets_loc\js\mdb.min.js" />
@@ -247,6 +252,7 @@
     <Content Include="Content\assets_usr\images\favicon.ico" />
     <Content Include="Content\assets_usr\images\favicon.png" />
     <Content Include="Content\assets_usr\images\hamburger-bg.png" />
+    <Content Include="Content\assets_usr\images\ipaylogo.png" />
     <Content Include="Content\assets_usr\images\logo-mini.svg" />
     <Content Include="Content\assets_usr\images\logo.svg" />
     <Content Include="Content\assets_usr\images\sprites\blue.png" />
@@ -273,6 +279,11 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\md_assest\css\mdb.dark.min.css" />
+    <Content Include="Content\md_assest\css\mdb.dark.rtl.min.css" />
+    <Content Include="Content\md_assest\css\mdb.min.css" />
+    <Content Include="Content\md_assest\css\mdb.rtl.min.css" />
+    <Content Include="Content\md_assest\js\mdb.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -376,6 +387,11 @@
     <Content Include="Content\assets_usr\vendors\mdi\fonts\materialdesignicons-webfont.ttf" />
     <Content Include="Content\assets_usr\vendors\mdi\fonts\materialdesignicons-webfont.woff" />
     <Content Include="Content\assets_usr\vendors\mdi\fonts\materialdesignicons-webfont.woff2" />
+    <Content Include="Content\md_assest\css\mdb.dark.min.css.map" />
+    <Content Include="Content\md_assest\css\mdb.dark.rtl.min.css.map" />
+    <Content Include="Content\md_assest\css\mdb.min.css.map" />
+    <Content Include="Content\md_assest\css\mdb.rtl.min.css.map" />
+    <Content Include="Content\md_assest\js\mdb.min.js.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -403,7 +419,10 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\UserCommonLayout.cshtml" />
     <Content Include="Views\User\Index.cshtml" />
-    <Content Include="Views\User\DTM.cshtml" />
+    <Content Include="Views\User\SendMoney.cshtml" />
+    <Content Include="Views\Shared\DMTCommonView.cshtml" />
+    <Content Include="Views\User\Refund.cshtml" />
+    <Content Include="Views\User\Reports.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

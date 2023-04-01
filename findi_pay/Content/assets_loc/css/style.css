@@ -41,6 +41,11 @@ section {
   padding-bottom: 40px;
   color: #000;
 }
+@media(max-width:800px){
+    .section-header{
+        text-align:left;
+    }
+}
 
 .section-header h2 {
   font-size: 13px;
@@ -54,16 +59,16 @@ section {
 .section-header p {
   margin-top: 3%;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Nunito", sans-serif;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .section-header p {
     font-size: 8px;
   }
 }
-
+*/
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -332,14 +337,33 @@ section {
   font-family: "Roboto", sans-serif;
 }
 
-.main-head span {
+.main-head span span {
   color: #e31e24;
 }
-
+@media(max-width:460px){
+    .top-head-text {
+        font-size: 2.7rem;
+    }
+}
+@media(max-width:420px) {
+    .top-head-text {
+        font-size: 2.5rem;
+    }
+}
+@media(max-width:385px) {
+    .top-head-text {
+        font-size: 2.2rem;
+    }
+}
+@media(max-width:340px) {
+    .top-head-text {
+        font-size: 1.9rem;
+        line-height: 0;
+    }
+}
 .main-head div p {
   margin-top: 3%;
   font-weight: 600;
-  padding-right: 10%;
   font-size: 18px;
   text-align: justify;
   font-family: "Nunito", sans-serif;
@@ -347,21 +371,25 @@ section {
 }
 
 .input-box {
-  display: flex;
-  margin-left: 1.5%;
-  height: 95%;
-  border: 1px solid #03a8c6;
-  border-radius: 5px;
-  width: fit-content;
-  overflow: hidden;
-  font-size: 20px;
+    display: flex;
+    margin-left: 2.5%;
+    height: 95%;
+    border: 1px solid #03a8c6;
+    border-radius: 5px;
+    width: fit-content;
+    overflow: hidden;
+    font-size: 20px;
 }
-
+@media(max-width:770px){
+    .input-box {
+        margin: 0px auto;
+    }
+}
 .input-box .prefix {
   font-weight: 300;
   width: fit-content;
   color: #000;
-  line-height: 100%;
+  line-height: 120%;
   padding: 5%;
   
 }
@@ -433,7 +461,14 @@ section {
 
 
 .img-fluid {
-  max-width: 130%;
+    max-width: 180%;
+    margin-left: -173px;
+}
+@media(max-width: 600px) {
+    .img-fluid {
+        max-width: 180%;
+        margin-left: -80px;
+    }
 }
 @media(max-width:500px){
   .clients-slider .img-fluid{
@@ -463,11 +498,11 @@ section {
   float: left;
   margin-left: 15%;
 }
-.img-peac-r{
-  max-height: 90px;
-  max-width: 90px;
-  float: right;
 
+.img-peac-r {
+    max-height: 90px;
+    max-width: 90px;
+    float: right;
 }
 
 @media(max-height:77px){
@@ -475,7 +510,21 @@ section {
     margin-right: 15%;
   }
 }
+@media(max-width: 600px) {
+    .img-peace-b {
+        max-height: 50px;
+        max-width: 50px;
+        float: left;
+        
+    }
 
+    .img-peac-r {
+        max-height: 60px;
+        max-width: 60px;
+        margin-top: 10%;
+        margin-right: 20%;
+    }
+}
 .hero .btn-get-started i {
   margin-left: 5px;
   font-size: 18px;
@@ -487,7 +536,8 @@ section {
 }
 
 .hero .hero-img {
-  text-align: right;
+    text-align: right;
+    padding-top: 50px;
 }
 
 @media (min-width: 1024px) {
@@ -502,10 +552,10 @@ section {
     padding: 120px 0 60px 0;
   }
 
-  .hero .hero-img {
-    text-align: center;
-    margin-top: 80px;
-  }
+    .hero .hero-img {
+        text-align: center;
+        margin-top: -50px;
+    }
 
   .hero .hero-img img {
     width: 80%;
@@ -551,11 +601,24 @@ section {
     font-weight: 600;
     text-align: center;
 }
+@media(max-width:800px) {
+    .top-title {
+        text-align: left !important;
+    }
+    .section-header p {
+        text-align: left !important;
+    }
+}
 
 h1 {
   margin-top: 2%;
   font-family: "Roboto", sans-serif;
   text-align: center;
+}
+@media(max-width:800px){
+    h1{
+        text-align:left;
+    }
 }
 
 .about p {
@@ -725,15 +788,15 @@ h1 {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services{
-  color:#fff;
-  background: url('../images/TSI bg.png') top center no-repeat fixed;
-  background-size: inherit;
-  min-height: 100%;
-  overflow: hidden;
+.services {
+    color: #fff;
+    background: url('../images/tsi_bg_blue.jpg') top center no-repeat;
+    background-size: inherit;
+    min-height: 100%;
+    overflow: hidden;
 }
 .services .service-box {
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  /*box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);*/
   height: 100%;
   padding: 60px 30px;
   text-align: center;
@@ -773,7 +836,7 @@ h1 {
 }
 
 .services .service-box.blue {
-  border-bottom: 3px solid #2db6fa;
+  /*border-bottom: 3px solid #2db6fa;*/
 }
 
 .services .service-box.blue .icon {
@@ -786,7 +849,7 @@ h1 {
 }
 
 .services .service-box.blue:hover {
-  background: #2db6fa;
+  /*background: #2db6fa;*/
 }
 
 .services .service-box.orange {
@@ -803,7 +866,7 @@ h1 {
 }
 
 .services .service-box.orange:hover {
-  background: #f68c09;
+  /*background: #f68c09;*/
 }
 
 .services .service-box.green {
@@ -820,7 +883,7 @@ h1 {
 }
 
 .services .service-box.green:hover {
-  background: #08da4e;
+  /*background: #08da4e;*/
 }
 
 .services .service-box.red {
@@ -837,7 +900,7 @@ h1 {
 }
 
 .services .service-box.red:hover {
-  background: #e9222c;
+  /*background: #e9222c;*/
 }
 
 .services .service-box.purple {
@@ -854,7 +917,7 @@ h1 {
 }
 
 .services .service-box.purple:hover {
-  background: #b50edf;
+  /*background: #b50edf;*/
 }
 
 .services .service-box.pink {
@@ -871,7 +934,7 @@ h1 {
 }
 
 .services .service-box.pink:hover {
-  background: #f51f9c;
+  /*background: #f51f9c;*/
 }
 
 .services .service-box:hover h3,
@@ -881,7 +944,7 @@ h1 {
 }
 
 .services .service-box:hover .icon {
-  background: #fff;
+  /*background: #fff;*/
 }
 
 /*--------------------------------------------------------------

@@ -3,6 +3,11 @@
     Layout = null;
 }
 
+
+@{
+    Layout = null;
+}
+
 <!DOCTYPE html>
 
 
@@ -31,9 +36,10 @@
     <!-- End layout styles -->
     <link rel="shortcut icon" href="~/Content/assets_usr/images/favicon.png" />
     <style>
-        .main-panel  {
+        .main-panel {
             margin-left: 5.6%;
         }
+
         .navbar .navbar-brand-wrapper .navbar-brand img {
             height: auto;
         }
@@ -44,7 +50,7 @@
             text-decoration: underline;
         }
 
-        
+
 
         .navbar {
             background-image: url('../../Content/assets_usr/images/d_shadow.png');
@@ -65,7 +71,7 @@
         .sidebar {
             margin-top: 30px;
             background: #d32f2f;
-            position:fixed;
+            position: fixed;
         }
 
             .sidebar .nav .nav-item {
@@ -78,19 +84,19 @@
                     background-color: #d34646 !important;
                     text-decoration: underline;
                     transition: all .3s linear;
-                    
                 }
-                .sidebar .nav .nav-item .nav-link i.menu-icon{
-                    color:#fff;
+
+                .sidebar .nav .nav-item .nav-link i.menu-icon {
+                    color: #fff;
                 }
 
 
-                .nav-profile, .nav-profile:hover {
-                    color: #fff !important;
-                    background-image: url('../../Content/assets_usr/images/hamburger-bg.png');
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                }
+        .nav-profile, .nav-profile:hover {
+            color: #fff !important;
+            background-image: url('../../Content/assets_usr/images/hamburger-bg.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
 
         .sidebar .nav .nav-profile .nav-link .nav-profile-text {
             color: #fff;
@@ -126,17 +132,19 @@
             position: fixed;
             top: 0px;
         }
-        .sidebar .nav .nav-item .nav-link{
-            color:#fff;
+
+        .sidebar .nav .nav-item .nav-link {
+            color: #fff;
         }
+
         .sidebar .nav .nav-item.active > .nav-link i {
             color: #fff;
         }
+
         .sidebar .nav .nav-item.active {
             color: #fff !important;
             background: #d34646 !important;
         }
-        
     </style>
 </head>
 <body class="sidebar-icon-only">
@@ -150,15 +158,15 @@
                 </a>
             </div>
             @*<div class="col-sm-12 test" style="margin-left:10%;margin-right:10%;">
-                <div class="row">
-                    <div class="col-sm-2 test c-iocon">  <i class="mdi mdi-fingerprint menu-icon"></i></div>
-                    <div class="col-sm-2 test c-iocon">  <i class="mdi mdi-fingerprint menu-icon"></i></div>
-                    <div class="col-sm-2 test c-iocon">  <i class="mdi mdi-fingerprint menu-icon"></i></div>
-                    <div class="col-sm-2 test c-iocon">  <i class="mdi mdi-fingerprint menu-icon"></i></div>
-                    <div class="col-sm-2 test c-iocon">  <i class="mdi mdi-fingerprint menu-icon"></i></div>
-                    <div class="col-sm-2 test c-iocon">  <i class="mdi mdi-fingerprint menu-icon"></i></div>
-                </div>
-            </div>*@
+                    <div class="row">
+                        <div class="col-sm-2 test c-iocon">  <i class="mdi mdi-fingerprint menu-icon"></i></div>
+                        <div class="col-sm-2 test c-iocon">  <i class="mdi mdi-fingerprint menu-icon"></i></div>
+                        <div class="col-sm-2 test c-iocon">  <i class="mdi mdi-fingerprint menu-icon"></i></div>
+                        <div class="col-sm-2 test c-iocon">  <i class="mdi mdi-fingerprint menu-icon"></i></div>
+                        <div class="col-sm-2 test c-iocon">  <i class="mdi mdi-fingerprint menu-icon"></i></div>
+                        <div class="col-sm-2 test c-iocon">  <i class="mdi mdi-fingerprint menu-icon"></i></div>
+                    </div>
+                </div>*@
             <div class="navbar-menu-wrapper d-flex align-items-stretch">
                 <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
                     <span class="mdi mdi-menu"></span>
@@ -238,29 +246,45 @@
                         </div>
                     </li>
                     @*<li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#general-pages" aria-expanded="false" aria-controls="general-pages">
-                <span class="menu-title">Sample Pages</span>
-                <i class="menu-arrow"></i>
-                <i class="mdi mdi-medical-bag menu-icon"></i>
-            </a>
-            <div class="collapse" id="general-pages">
-                <ul class="nav flex-column sub-menu">
-                    <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Blank Page </a></li>
-                    <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
-                    <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
-                    <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li>
-                    <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li>
-                </ul>
-            </div>
-        </li>*@
+                            <a class="nav-link" data-bs-toggle="collapse" href="#general-pages" aria-expanded="false" aria-controls="general-pages">
+                                <span class="menu-title">Sample Pages</span>
+                                <i class="menu-arrow"></i>
+                                <i class="mdi mdi-medical-bag menu-icon"></i>
+                            </a>
+                            <div class="collapse" id="general-pages">
+                                <ul class="nav flex-column sub-menu">
+                                    <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Blank Page </a></li>
+                                    <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
+                                    <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
+                                    <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li>
+                                    <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li>
+                                </ul>
+                            </div>
+                        </li>*@
 
                 </ul>
             </nav>
             <!-- partial -->
             <div class="main-panel">
 
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10 cont">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="sub-nav">
+                                    <a href="/User/SendMoney"
+                                       class="hvr-underline-from-center active-nav">Send Money</a>
+                                    <a href="/User/Refund" class="hvr-underline-from-center">Refund</a>
+                                    <a href="/User/Reports" class="hvr-underline-from-center">Reports</a>
+                                </div>
+                            </div>
+                        </div>
+                        @RenderBody()
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
 
-                @RenderBody()
                 <!-- content-wrapper ends -->
                 <!-- partial:partials/_footer.html -->
                 <footer class="footer">
@@ -271,10 +295,10 @@
                 </footer>
                 <!-- partial -->
             </div>
-            <!-- main-panel ends -->
-        </div>
-        <!-- page-body-wrapper ends -->
-    </div>
+                    <!-- main-panel ends -->
+                </div>
+                <!-- page-body-wrapper ends -->
+            </div>
 
 
 
